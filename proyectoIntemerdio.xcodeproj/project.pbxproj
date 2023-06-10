@@ -11,6 +11,10 @@
 		5A7B8E402A34F692006582C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B8E3F2A34F692006582C2 /* ViewController.swift */; };
 		5A7B8E422A34F693006582C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7B8E412A34F693006582C2 /* Assets.xcassets */; };
 		5A7B8E452A34F693006582C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7B8E432A34F693006582C2 /* Main.storyboard */; };
+		5A7B8E4D2A34F760006582C2 /* personaOBJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B8E4C2A34F760006582C2 /* personaOBJ.swift */; };
+		5A7B8E4F2A34FCAA006582C2 /* AgregarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B8E4E2A34FCAA006582C2 /* AgregarVC.swift */; };
+		5A7B8E512A34FCE3006582C2 /* TablaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B8E502A34FCE3006582C2 /* TablaVC.swift */; };
+		5A7B8E532A350359006582C2 /* playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B8E522A350359006582C2 /* playground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		5A7B8E412A34F693006582C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A7B8E442A34F693006582C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A7B8E462A34F693006582C2 /* proyectoIntemerdio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = proyectoIntemerdio.entitlements; sourceTree = "<group>"; };
+		5A7B8E4C2A34F760006582C2 /* personaOBJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personaOBJ.swift; sourceTree = "<group>"; };
+		5A7B8E4E2A34FCAA006582C2 /* AgregarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarVC.swift; sourceTree = SOURCE_ROOT; };
+		5A7B8E502A34FCE3006582C2 /* TablaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablaVC.swift; sourceTree = "<group>"; };
+		5A7B8E522A350359006582C2 /* playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +60,14 @@
 		5A7B8E3C2A34F692006582C2 /* proyectoIntemerdio */ = {
 			isa = PBXGroup;
 			children = (
+				5A7B8E4E2A34FCAA006582C2 /* AgregarVC.swift */,
 				5A7B8E3D2A34F692006582C2 /* AppDelegate.swift */,
 				5A7B8E3F2A34F692006582C2 /* ViewController.swift */,
+				5A7B8E4C2A34F760006582C2 /* personaOBJ.swift */,
 				5A7B8E412A34F693006582C2 /* Assets.xcassets */,
 				5A7B8E432A34F693006582C2 /* Main.storyboard */,
+				5A7B8E522A350359006582C2 /* playground.swift */,
+				5A7B8E502A34FCE3006582C2 /* TablaVC.swift */,
 				5A7B8E462A34F693006582C2 /* proyectoIntemerdio.entitlements */,
 			);
 			path = proyectoIntemerdio;
@@ -131,6 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A7B8E532A350359006582C2 /* playground.swift in Sources */,
+				5A7B8E4F2A34FCAA006582C2 /* AgregarVC.swift in Sources */,
+				5A7B8E4D2A34F760006582C2 /* personaOBJ.swift in Sources */,
+				5A7B8E512A34FCE3006582C2 /* TablaVC.swift in Sources */,
 				5A7B8E402A34F692006582C2 /* ViewController.swift in Sources */,
 				5A7B8E3E2A34F692006582C2 /* AppDelegate.swift in Sources */,
 			);
